@@ -1,4 +1,4 @@
-package scala.atomicscala
+package scala.atomicscala.classes
 
 /**
  * Created by Matteo on 04/12/14.
