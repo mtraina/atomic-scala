@@ -1,8 +1,5 @@
 package com.atomicscala.classes
 
-/**
- * Created by Matteo on 07/12/14.
- */
 class Coffee(val shots :Int = 2,
               val decaf :Boolean = false,
               val milk :Boolean = false,

@@ -8,9 +8,11 @@ class CoffeeSpec extends FlatSpec with Matchers {
 
     val usual = new Coffee
     usual.result should be ("HereCup shot shot ")
+    usual.shots should be (2)
 
     val mocha = new Coffee(decaf = true, toGo =  true, syrup = "Chocolate")
     mocha.result should be ("ToGoCup decaf shot decaf shot Chocolate")
+
   }
 
 }
